@@ -11,3 +11,4 @@
 10. git push origin master 向对应的远程仓库提交代码，而这个代码是在 master 分支上。也可以提交到指定分支。
     - 此处报错。操作是，在 github 上创建项目，然后本地 git init ,没有 git pull -f -all ,就 add ,commit ,push ,导致 github 上的 readme 文件和本地版本冲突。
     - 解决办法：git push  -u origin master -f
+    - 一般我们在 push 之前，都先 pull ,这样不容易导致冲突
